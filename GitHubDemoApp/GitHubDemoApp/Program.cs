@@ -11,6 +11,8 @@ namespace GitHubDemoApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Dog doggie = new Dog();
+            Console.WriteLine(doggie.ToString());
         }
     }
 }
